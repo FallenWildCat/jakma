@@ -1,0 +1,17 @@
+.elementor-kit-5 {--e-global-color-primary: #6ec1e4;--e-global-color-secondary: #54595f;--e-global-color-text: #7a7a7a;--e-global-color-accent: #61ce70;--e-global-color-845292f: #6ec1e4;--e-global-typography-primary-font-family: "Roboto";--e-global-typography-primary-font-weight: 600;--e-global-typography-secondary-font-family: "Roboto Slab";--e-global-typography-secondary-font-weight: 400;--e-global-typography-text-font-family: "Roboto";--e-global-typography-text-font-weight: 400;--e-global-typography-accent-font-family: "Roboto";--e-global-typography-accent-font-weight: 500;}
+.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1140px;}
+.elementor-widget:not(:last-child) {margin-bottom: 20px;}
+ {}
+h1.entry-title {display: var(--page-title-display);}
+@media (max-width:1024px) {.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1024px;}}
+@media (max-width:767px) {.elementor-section.elementor-section-boxed > .elementor-container {max-width: 767px;}}
+@media only screen and (min-width: 1367px) {body #magicMouseCursor {z-index: 10000000 !important;z-index: 9999;position: fixed;width: 200px;height: 200px;border: 2px solid #273e88;background: rgba(39,62,136,0);border-radius: 100%;left: 0;top: 0;transition: transform .07s,width .3s,height .3s;pointer-events: none;}
+	body #magicMouseCursor.cursor-square {border-radius: 0;}
+	body #magicPointer {z-index: 10000000 !important;height: 10px;width: 10px;top: 0;left: 0;position: fixed;background: #d3a72a;border-radius: 100%;pointer-events: none;transition: background .2s,width .2s,height .2s,box-shadow .2s;}
+	body #magicPointer.is-hover {background: #fff;}
+	body #magicPointer.pointer-blur {height: 50px;width: 50px;background: none;border: 1px solid #fff;box-shadow: 0px 0px 15px -5px white;}
+	body #magicPointer.pointer-overlay {height: 50px;width: 50px;mix-blend-mode: difference;box-shadow: 0px 0px 15px -5px white;}
+	body .magic-hover {transition: all .2s;}
+	body .magic-hover:hover {cursor: none !important;}}
+.makpanel {position: relative;color: black;}
+@supports (-webkit-text-stroke: 1px black) {.herotext1 {-webkit-text-stroke: 2px black;-webkit-text-fill-color: rgba(39,62,136,0);}}
